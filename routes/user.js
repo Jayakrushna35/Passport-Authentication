@@ -7,7 +7,7 @@ router.get("/login",(req,res) =>
 );
 //Logout Page 
 router.get("/logout",(req,res) => 
-  res.send("logout")
+  res.render("dashboard")
 );
 //Register Page 
 router.get("/register",(req,res) => 
