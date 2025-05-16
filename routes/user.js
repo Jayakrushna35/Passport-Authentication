@@ -3,7 +3,7 @@ const router = express.Router();
 
 //Login Page 
 router.get("/login",(req,res) => 
-  res.send("login")
+  res.render("login")
 );
 //Logout Page 
 router.get("/logout",(req,res) => 
@@ -11,7 +11,7 @@ router.get("/logout",(req,res) =>
 );
 //Register Page 
 router.get("/register",(req,res) => 
-  res.send("Register")
+  res.render("register")
 );
 
 module.exports = router;
